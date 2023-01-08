@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+  </head>
+
+    <div class="wrapper">
+      <div class="hidden" id="time"></div>
+      <div class="nickname">
+        <h2>뭐라고 부르면 좋을까요?</h2>
+        <form id="userNickname">
+          <input type="text" required autofocus >
+        </form>
+      </div>
+      <div class="hidden" id="todoList">
+        <h2>오늘은 어떤 일을 할까요?</h2>
+        <form id="todoListForm">
+          <input type="text" autofocus>
+        </form>
+        <div class="tasks"><ul></ul></div>
+      </div>
+      <div id="quotes"><span></span></div>
+      <div id="weather"></div>
+
+    </div>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
